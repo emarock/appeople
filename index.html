@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css"
+	  href="stylesheets/bootstrap.min.css">
+    <script src="javascripts/jquery-3.2.1.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery-shuffle.js"></script>
+    <script src="javascripts/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+	Are you a <strong>GOOD</strong> or a <strong>BAD</strong> person?
+      </h1>
+
+      <!-- Smiley section  -->
+      <div class="row">
+ 	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="someone" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To someone just met</small>
+	  </div>
+	</div>
+	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="coworkers" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To coworkers</small>
+	  </div>
+	</div>
+	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="newfriends" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To new friends</small>
+	  </div>
+	</div>
+	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="goodfriends" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To good friends</small>
+	  </div>
+	</div>
+	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="closefriends" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To closest friends</small>
+	  </div>
+	</div>
+	<div class="thumbnail col-xs-6 col-sm-4 col-md-2">
+	  <img id="family" src="images/smiley-2.png">
+	  <div class="caption text-center">
+	    <small>To family</small>
+	  </div>
+	</div>	
+      </div>
+
+      <!-- Questions section -->
+      <div id="question" class="row">
+	<div class="col-md-6">
+	  <p id="text"></p>
+	</div>
+	<div id="buttons">
+	  <button id="yes" class="btn btn-primary btn-lg">Yes</button>
+	  <button id="no" class="btn btn-info btn-lg">No</button>
+	</div>
+      </div>
+      
+      <!-- Description section -->
+      <div id="description" class="row hidden">
+ 	<div class="thumbnail col-md-4">
+	  <img id="apple" src="images/ggg.png">
+	  <div class="caption text-center">
+	    <span id="category">GOOD-GOOD-GOOD</span>
+	  </div>
+	</div>
+	<div class="col-md-8">
+	  <h2>People like you...</h2>
+	  <p>
+	    <strong>Their Deal:</strong>
+	    <span id="deal"></span>
+	  </p>
+	  <p>
+	    <strong>Why They’re Great:</strong>
+	    <span id="good"></span>
+	  </p>
+	  <p>
+	    <strong>Why They’re Shitty:</strong>
+	    <span id="bad"></span>
+	  </p>
+	</div>
+      </div>
+    </div>
+  </body>  
+</html>

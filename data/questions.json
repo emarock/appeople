@@ -1,0 +1,28 @@
+{
+  "skin": [
+    "Do people tend to like you and feel comfortable around you when they first meet you?",
+    "Do people who barely know you think you're a nice person?",
+    "Would people describe you as \"friendly\"?",
+    "Are you pleasant in public?",
+    "Are you almost always nice to waiters, cab drivers, and cashiers?"
+  ],
+  "flesh": [
+    "Do you often talk about people behind their back very differently than you'd talk about them to their face?",
+    "If someone says something bad about someone you care about when the person is not there, do you often stay quiet (as opposed to vocally standing up for the person)?",
+    "Would people who know you well say you can be pretty petty sometimes?",
+    "Would people who know you well say you can be pretty judgmental sometimes?",
+    "Do you often feel schadenfreude when something goes badly for someone you know?",
+    "When you're at a one-on-one dinner with someone you know well, would you feel comfortable talking about yourself for much more than 50% of the time?",
+    "Are you less-than-great at keeping secrets?",
+    "Do you sometimes exaggerate or lie about facts when you recount stories from your life?",
+    "Are you bad at returning things you borrow or paying people back quickly?"
+  ],
+  "core": [
+    "Picture a button that, if pressed, would make 1,000 strangers across the planet drop dead instantly and also make a career dream of yours come true or lead you to true love. No one would ever know that you pressed the button if you do. You're given exactly one hour in front of the button to think about the decision. At the end of the hour, would you press it?",
+    "Are you ever cruel just because it feels good to be?",
+    "Are you meanest to the weakest people you know?",
+    "Do you rarely feel any real empathy for those you care about in their times of misfortune?",
+    "Do you typically make your friends and family members feel worse about themselves when you spend time with them?",
+    "Would the people closest to you agree with the statement about you, \"Deep down, she really only cares about herself.\" Would you agree with that statement about yourself?"
+  ]
+}

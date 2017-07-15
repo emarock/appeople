@@ -1,0 +1,50 @@
+{
+  "ggg": {
+    "name": "GOOD-GOOD-GOOD",
+    "deal": "Saints through and through; everyone else other than BAD-GOOD-GOODs makes them a bit uncomfortable; they totally underestimate how bad bad people actually are.",
+    "good": "The world needs some people like this to hold everything together; they're intensely trustworthy.",
+    "bad": "They have potential to suck the fun out of the room; they disapprove of a lot of things."
+  },
+  "bgg": {
+    "name": "BAD-GOOD-GOOD",
+    "deal": "They turn new people off only to be revealed as positively wonderful when you get to know them. GOOD-GOOD-GOODs like to make a token BAD-GOOD-GOOD friend to keep people on their toes.",
+    "good": "They're utterly solid; they detest both phoniness and pettiness; people tend to respect them; they make great leaders.",
+    "bad": "Their ego might be slightly too thrilled with its little “standoffish yet wonderful” thing."
+  },
+  "gbg": {
+    "name": "GOOD-BAD-GOOD",
+    "deal": "Their friends chuckle when new people talk about how nice they are; they tend to be friends with a lot of other GOOD-BAD-GOODs; they often feel like they're worse people than they actually are.",
+    "good": "Usually fun and often funny; great social skills.",
+    "bad": "They can be both phony and petty, but nothing too dire."
+  },
+  "bbg": {
+    "name": "BAD-BAD-GOOD",
+    "deal": "They intimidate a lot of people and turn off others, but their friends think they're the best and fiercely defend them. Most of their friends are other BAD-BAD-GOODS with some GOOD-BAD-GOODS and some BAD-BAD-BADs sprinkled in.",
+    "good": "They're kind of a dick but at least they're a kind-hearted dick.",
+    "bad": "They're kind of a dick."
+  },
+  "ggb": {
+    "name": "GOOD-GOOD-BAD",
+    "deal": "Dangerous people; they win a lot of people over and end up hurting a lot of people; they make friends with GOOD-GOOD-GOODs, and then have nasty falling outs with them.",
+    "good": "As far as Bad Core people go, they're at least making the world a better place a lot of the time; strong profile for political success.",
+    "bad": "The people they do harm are the ones closest to them; they're highly manipulative."
+  },
+  "bgb": {
+    "name": "BAD-GOOD-BAD",
+    "deal": "This is a weird and rare profile, and usually happens when a not-so-great person is carefully crafting their persona; they're often delusional, thinking of themselves as a BAD-GOOD-GOOD (“People think I'm a dick but people who know me know I'm a great person”) and denying all ties to their bad core; they break a lot of hearts.",
+    "good": "Good profile for success in a cutthroat industry (their bad skin can provide the proper intimidation, their good flesh can build a large trusting network, and their bad core can focus singlehandedly on personal advancement at all costs and fuck people over when necessary).",
+    "bad": "They're pretty shitty people."
+  },
+  "gbb": {
+    "name": "GOOD-BAD-BAD",
+    "deal": "Everyone's fun friend who turns out to also just kind of be a huge asshole. Lots of falling outs with GOOD-BAD-GOOD friends after hitting it off beautifully.",
+    "good": "Amazing as a Real Housewives cast member.",
+    "bad": "Biggest phonies of the bunch."
+  },
+  "bbb": {
+    "name": "BAD-BAD-BAD",
+    "deal": "Just a good old fashion bad person. Sometimes friends will try to spin the narrative that their BAD-BAD-BAD friend is really a BAD-BAD-GOOD, but no one really believes it. They don't really understand people with Good Cores but detest both GOOD-GOOD-BADs and BAD-GOOD-BADs for both thinking and trying to project to the world that they're better than BAD-BAD-BADs—BBBs see right through it.",
+    "good": "They're neither phony nor delusional; often make great standup comedians; great mafia profile.",
+    "bad": "Do you really have to ask why they're shitty?"
+  }  
+}
