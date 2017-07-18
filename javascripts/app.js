@@ -17,7 +17,7 @@ var questions = []
 
 var descriptions = {}
 
-$.get('data/questions.json', function(data) {
+$.get('data/questions.json').then(function(data) {
 
   $(data.skin).each(function(i, question) {
     questions.push({
@@ -45,21 +45,15 @@ $.get('data/questions.json', function(data) {
       }
     })
   })
-
+    
   $.shuffle(questions)
-  
-}).then(function() {
-  return $.get('data/descriptions.json', function(data) {
-    descriptions = data
-  })
-}).fail(function() {
-  throw 'Cannot retrieve questions'
-}).done(function() {
+  return $.get('data/descriptions.json')
+}).done(function(data) {
+  descriptions = data
   update()
 })
 
 function update() {
-  console.log(state)
   var question = questions.pop()
   if (question) {
     $('#text').text(question.text)
