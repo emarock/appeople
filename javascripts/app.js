@@ -19,33 +19,16 @@ var descriptions = {}
 
 $.get('data/questions.json').then(function(data) {
 
-  $(data.skin).each(function(i, question) {
-    questions.push({
-      text: question,
-      callback: function(answer) {
-	state.skin += (answer ? .5 : -.5) / data.skin.length
-      }
+  for (var k in data) {
+    data[k].forEach(function(question) {
+      questions.push({
+	text: question,
+	part: k,
+	delta: (k === 'skin' ? .5 : -.5) / data[k].length
+      })
     })
-  })
+  }
 
-  $(data.flesh).each(function(i, question) {
-    questions.push({
-      text: question,
-      callback: function(answer) {
-	state.flesh += (answer ? -.5 : .5) / data.flesh.length
-      }
-    })
-  })
-
-  $(data.core).each(function(i, question) {
-    questions.push({
-      text: question,
-      callback: function(answer) {
-	state.core += (answer ? -.5 : .5) / data.core.length
-      }
-    })
-  })
-    
   $.shuffle(questions)
   return $.get('data/descriptions.json')
 }).done(function(data) {
@@ -58,11 +41,11 @@ function update() {
   if (question) {
     $('#text').text(question.text)
     $('#yes').off().on('click', function() {
-      question.callback(true)
+      state[question.part] += question.delta
       update()
     })
     $('#no').off().on('click', function() {
-      question.callback(false)
+      state[question.part] -= question.delta
       update()
     })
     for (var people in coefficients) {
