@@ -1,0 +1,19 @@
+@media screen and (max-width: 991px) {
+    p {
+	font-size: 2em;
+    }
+    button {
+	width: 150px;
+	height: 75px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    p {
+	font-size: 1em;
+    }
+    button {
+    	width: 100px;
+    	height: 50px;
+    }
+}
